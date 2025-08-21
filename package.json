@@ -1,0 +1,26 @@
+{
+  "name": "solid-animejs",
+  "version": "1.0.0",
+  "description": "helper package to run animejs with the SolidJS Library ",
+  "main": "solid-animejs.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesilph/solid-animejs.git"
+  },
+  "keywords": [
+    "solid",
+    "solidjs",
+    "animejs",
+    "solidstart"
+  ],
+  "author": "thesilph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thesilph/solid-animejs/issues"
+  },
+  "homepage": "https://github.com/thesilph/solid-animejs#readme",
+  "dependencies": {
+    "animejs": "^4.1.3",
+    "solid-js": "^1.9.9"
+  }
+}
