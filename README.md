@@ -1,11 +1,11 @@
-# Solid-AnimeJS
+# solid-anime-js
 
 A lightweight helper library to seamlessly integrate the powerful [anime.js](https://animejs.com/) animation library with your [SolidJS](https://www.solidjs.com/) applications. This package provides a set of components to manage animation scopes and simplify creating animations in a declarative SolidJS environment.
 
 ## Installation
 
 ```sh
-npm install solid-animejs animejs solid-js
+npm install @thesilph/solid-anime-js
 ```
 
 ## Core Components
