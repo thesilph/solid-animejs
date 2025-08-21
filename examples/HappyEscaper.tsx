@@ -1,8 +1,9 @@
 import { Component } from 'solid-js';
-import { createSignal, createEffect, onCleanup } from 'solid-js';
+import { createSignal } from 'solid-js';
 import { createAnimatable, Scope, utils } from 'animejs';
 import SingleFunctionAnimator from '../animator/singlefunctionanimator';
 
+//loosely based on https://animejs.com/documentation/animatable
 const HappyEscaper: Component = () => {
   const [animationScope, setAnimationScope] = createSignal<Scope>();
 

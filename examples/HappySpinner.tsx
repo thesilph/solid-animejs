@@ -1,8 +1,9 @@
 import { Component } from 'solid-js';
-import { createSignal, createEffect, onCleanup } from 'solid-js';
+import { createSignal} from 'solid-js';
 import { animate, Scope } from 'animejs';
 import Animator from '../animator/animator';
 
+//based on https://animejs.com/documentation/getting-started/using-with-react
 const App: Component = () => {
   
   const [rotations, setRotations] = createSignal<number>(0);

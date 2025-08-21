@@ -1,9 +1,9 @@
 import { Component, JSXElement } from 'solid-js';
 import { createSignal, createEffect, onCleanup } from 'solid-js';
 import { animate, createAnimatable, Scope, utils } from 'animejs';
-import googleLogo from '../../assets/google-icon.png';
 import Animator from '../animator/animator';
 
+//loosely based on https://animejs.com/documentation/animation/animation-playback-settings/loop
 const App: Component<{ children: JSXElement, animationclass: string, shakeNow : boolean}> = (props) => {
   const [animationScope, setAnimationScope] = createSignal<Scope>();
 

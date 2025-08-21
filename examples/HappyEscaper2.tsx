@@ -3,6 +3,7 @@ import { createSignal,} from 'solid-js';
 import { createAnimatable, Scope, utils } from 'animejs';
 import FunctionAnimator from '../animator/functionanimator';
 
+//loosely based on https://animejs.com/documentation/animatable
 const HappyEscaper: Component = () => {
   const [animationScope, setAnimationScope] = createSignal<Scope>();
 

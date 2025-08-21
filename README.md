@@ -87,4 +87,11 @@ const App: Component = () => {
   return (
     <Animator onScopeReady={handleScopeReady}>
       <div class="large centered row">
-        <div onClick={handleClick}
+        <div onClick={handleClick} class="logo" alt="google logo">G</div> 
+      </div>
+    </Animator>
+  );
+};
+
+export default App;
+````
