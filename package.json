@@ -1,6 +1,6 @@
 {
   "name": "@thesilph/solid-animejs",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "helper package to run animejs with the SolidJS Library ",
   "main": "solid-animejs.js",
   "repository": {
