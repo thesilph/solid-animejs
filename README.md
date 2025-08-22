@@ -4,9 +4,11 @@ A lightweight helper library to seamlessly integrate the powerful [anime.js](htt
 
 ## Installation
 
-```sh
-npm install @thesilph/solid-anime-js
-```
+
+~~npm install @thesilph/solid-anime-js~~
+It doesn't work on npm, I don't wanna fight bundlers also right now!
+
+Just follow the examples
 
 ## Core Components
 
